@@ -1713,6 +1713,7 @@ body.boxed .body{
 	z-index:2;
 	background:#ccc;
 	min-height:200px;
+	max-height: 50em;
 }
 .header-style2 .hero-area, .header-style3 .hero-area{
 	top:0;
