@@ -85,8 +85,8 @@
                     <br>
                     <p style="padding-top: .3em; transform: scale(1.5,2);">TECNOLOGIA</p>
                     <br>
-                    <p style="padding-top: .7em; transform: scale(2.5,3);">CRIATIVA</p>    
-                </div>                
+                    <p style="padding-top: .7em; transform: scale(2.5,3);">CRIATIVA</p>
+                </div>
             </div>
 
             <div class="col-md-12 col-sm-12 center-vertical-position text-justify" style="height: 30em">
@@ -236,7 +236,7 @@
     <script src="js/event-filter.js"></script>
     <script src="vendor/flexslider/js/jquery.flexslider.js"></script>
     <!-- FlexSlider -->
-    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
     <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
     <script type="text/javascript" src="vendor/revslider/js/jquery.themepunch.tools.min.js"></script>
@@ -331,15 +331,14 @@
                 // Store hash
                 var hash = this.hash;
 
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.history.pushState("", "", hash);
+
                 // Using jQuery's animate() method to add smooth page scroll
                 // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                 $('html, body').animate({
                     scrollTop: $(hash).offset().top - 45
-                }, 800, function () {
-
-                    // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.history.pushState("", "", hash);
-                });
+                }, 800);
             } // End if
         });
     });
