@@ -1,0 +1,23 @@
+# Site
+title: LILO.ZONE
+subtitle: Fábrica de Tecnologia Criativa
+
+# URL
+url: http://lilo.zone
+baseurl: /
+permalink: :title/
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+port: 4442
+future: true
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
