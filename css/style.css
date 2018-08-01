@@ -922,6 +922,7 @@ p.meta-data{
 .flexslider .slides > li {
 	display: none;
 	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 .slides:after {
 	content: ".";
@@ -1565,7 +1566,7 @@ body.boxed .body{
 	left:100%!important;
 	top:0;
 	min-width:150px;
-	margin-left:;
+	/* margin-left:; */
 	position:absolute;
 }
 .dd-menu > ul > li > ul > li > ul{

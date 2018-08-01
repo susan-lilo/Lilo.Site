@@ -674,7 +674,7 @@ span.progress-bar-tooltip:after {
 }
 .breadcrumb > li + li:before {
   content: "/";
-  color:##999;
+  color:#999;
   padding:0 10px 0 8px;
 }
 .breadcrumb li:first-child{
