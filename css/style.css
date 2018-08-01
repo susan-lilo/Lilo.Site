@@ -10,8 +10,14 @@ Author:	imithemes
 @import url("line-icons.css");
 @import url("animations.css");
 @font-face {
+	font-family: Gill-Normal;
+	src: url("fonts/GillSansMTPro-Book.otf");
+	font-weight: normal;
+}
+@font-face {
     font-family: Gill;
-    src: url("fonts/GillSansDisplayMTPro-ExBd.otf")};
+	src: url("fonts/GillSansDisplayMTPro-ExBd.otf");
+};
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic);
 
 /*------------------------------------------------------------------
@@ -3578,7 +3584,7 @@ img.network-img {
 
 .square-about-black h2{
 	color: #FFFFFF;
-	padding-top: .5em;
+	padding-top: 1.2em;
 }
 
 .square-about-white{
@@ -3588,7 +3594,7 @@ img.network-img {
 
 .square-about-white h2{
 	color: #000000;
-	padding-top: .5em;
+	padding-top: 1.2em;
 }
 
 /* ==================================================
