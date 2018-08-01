@@ -3577,7 +3577,8 @@ img.network-img {
 }
 
 .square-about-black h2{
-    color: #FFFFFF;   
+	color: #FFFFFF;
+	padding-top: .5em;
 }
 
 .square-about-white{
@@ -3586,7 +3587,8 @@ img.network-img {
 }
 
 .square-about-white h2{
-    color: #000000;   
+	color: #000000;
+	padding-top: .5em;
 }
 
 /* ==================================================
